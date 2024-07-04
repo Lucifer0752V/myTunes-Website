@@ -1,0 +1,161 @@
+body{
+    font-family:Roboto,sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:#270082 ;
+    height:5rem;
+    position:sticky;
+    top:0;    
+}
+.navbar ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}   
+.image{
+    height:45rem;
+    background-image: url("hero_image.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.tune{
+    font-size: 3rem;
+}
+.ti{
+    font-size: 2rem;
+}
+.faltu{
+    text-align: center;
+}
+.hero{
+    height: 45rem;
+    background-color: #281154;
+    display: flex;
+    font-size: 2 rem;
+    align-items: center;
+    flex-direction: column;
+}
+.music{
+    margin-top: 10rem;
+    color: White; 
+    font-size: 2rem;
+    font-weight: 500;   
+}
+.desc{
+    margin-top: 1rem;
+    color: white;
+    line-height: 25px;
+    font-weight: 300;
+}
+.butt button{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.image2{
+    height:40rem;
+    width:55rem;
+    background-image: url("ipad-iphone.png");
+    background-size: cover;
+    color: white;
+    margin-left:15rem;
+    margin-top: -17rem;    
+}
+.tag{
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.desc1{
+    text-align: center;
+    font-weight: 300;
+    line-height: 25px;
+}
+button{
+    background-color:#270082;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image3{
+    height:40rem;
+    width:65rem;
+    background-image: url("mac.png");
+    background-size: cover;
+    color: white;
+    margin-left:9rem;
+}
+.enter{
+    height: 50rem;
+    background-color: red;
+    background-image: url("video.png");
+    background-size: cover;
+}
+.desc2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 15rem;
+    text-align: center;
+    line-height: 25px;
+}
+.gift_card{
+    margin-left:30rem;
+}
+p{
+    line-height: 25px;
+}
+.orange{
+    color: White; 
+    font-size: 1.25rem;  
+}
+.footer{
+    height: 15rem;
+    background-color: #1B0058;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.footer ul{
+    list-style-type: none;
+    margin:0px 0px 10px;
+}
+.copyright{
+    background-color:#270082;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height:4rem;
+    align-items: center;
+}
+.bo{
+    border: 0.5px solid black;
+}
+.gift{
+    height:16rem;
+    width:23rem;
+    margin-left:-30rem;
+    margin-bottom: -15rem;    
+}
+.f{
+    margin-right: 40rem;
+}
+.navbar li:hover{
+    text-decoration: underline 2px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
